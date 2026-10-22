@@ -1,0 +1,1494 @@
+{
+ "schema": 1,
+ "sample": true,
+ "team": {
+  "id": "t4",
+  "name": "Test Automation",
+  "leadId": "t4-m1",
+  "updated": "2026-10-20"
+ },
+ "members": [
+  {
+   "id": "t4-m1",
+   "name": "Mika Tolentino",
+   "empId": "E10533",
+   "role": "Test Lead",
+   "photo": "",
+   "hired": "2024-12-21",
+   "email": "mika.tolentino@example.com",
+   "phone": "",
+   "birthday": "",
+   "location": "Remote",
+   "skills": "Playwright, TypeScript",
+   "bio": "Sample profile. Replace with a short introduction from the team leader.",
+   "leaveAllowance": 15,
+   "extra": [
+    {
+     "label": "Certification",
+     "value": "ISTQB Foundation"
+    }
+   ]
+  },
+  {
+   "id": "t4-m2",
+   "name": "Jun Santos",
+   "empId": "E10540",
+   "role": "Test Analyst",
+   "photo": "",
+   "hired": "2022-10-03",
+   "email": "jun.santos@example.com",
+   "phone": "",
+   "birthday": "",
+   "location": "Remote",
+   "skills": "OWASP basics",
+   "bio": "",
+   "leaveAllowance": 15,
+   "extra": []
+  },
+  {
+   "id": "t4-m3",
+   "name": "Elaine Flores",
+   "empId": "E10547",
+   "role": "QA Engineer",
+   "photo": "",
+   "hired": "2022-06-22",
+   "email": "elaine.flores@example.com",
+   "phone": "",
+   "birthday": "",
+   "location": "Ortigas",
+   "skills": "Postman, REST",
+   "bio": "",
+   "leaveAllowance": 15,
+   "extra": [
+    {
+     "label": "Certification",
+     "value": "ISTQB Foundation"
+    }
+   ]
+  },
+  {
+   "id": "t4-m4",
+   "name": "Omar Rivera",
+   "empId": "E10554",
+   "role": "QA Engineer",
+   "photo": "",
+   "hired": "2023-03-25",
+   "email": "omar.rivera@example.com",
+   "phone": "",
+   "birthday": "",
+   "location": "Remote",
+   "skills": "Playwright, TypeScript",
+   "bio": "",
+   "leaveAllowance": 18,
+   "extra": []
+  },
+  {
+   "id": "t4-m5",
+   "name": "Patrice Lee",
+   "empId": "E10561",
+   "role": "QA Engineer",
+   "photo": "",
+   "hired": "2024-02-20",
+   "email": "patrice.lee@example.com",
+   "phone": "",
+   "birthday": "",
+   "location": "Makati",
+   "skills": "Exploratory testing",
+   "bio": "",
+   "leaveAllowance": 15,
+   "extra": []
+  },
+  {
+   "id": "t4-m6",
+   "name": "Gabe Torres",
+   "empId": "E10568",
+   "role": "Test Analyst",
+   "photo": "",
+   "hired": "2020-07-17",
+   "email": "gabe.torres@example.com",
+   "phone": "",
+   "birthday": "",
+   "location": "Taguig",
+   "skills": "Playwright, TypeScript",
+   "bio": "",
+   "leaveAllowance": 15,
+   "extra": []
+  }
+ ],
+ "leaves": [
+  {
+   "id": "t4-m1-l1",
+   "memberId": "t4-m1",
+   "date": "2026-08-17",
+   "type": "Sick",
+   "half": false,
+   "note": ""
+  },
+  {
+   "id": "t4-m1-l2",
+   "memberId": "t4-m1",
+   "date": "2026-09-17",
+   "type": "Vacation",
+   "half": false,
+   "note": ""
+  },
+  {
+   "id": "t4-m1-l3",
+   "memberId": "t4-m1",
+   "date": "2026-09-18",
+   "type": "Vacation",
+   "half": false,
+   "note": ""
+  },
+  {
+   "id": "t4-m1-l4",
+   "memberId": "t4-m1",
+   "date": "2026-09-21",
+   "type": "Vacation",
+   "half": false,
+   "note": ""
+  },
+  {
+   "id": "t4-m1-l5",
+   "memberId": "t4-m1",
+   "date": "2026-09-22",
+   "type": "Vacation",
+   "half": false,
+   "note": ""
+  },
+  {
+   "id": "t4-m1-l6",
+   "memberId": "t4-m1",
+   "date": "2026-09-23",
+   "type": "Vacation",
+   "half": false,
+   "note": ""
+  },
+  {
+   "id": "t4-m1-l7",
+   "memberId": "t4-m1",
+   "date": "2026-05-04",
+   "type": "Vacation",
+   "half": false,
+   "note": ""
+  },
+  {
+   "id": "t4-m1-l8",
+   "memberId": "t4-m1",
+   "date": "2026-05-05",
+   "type": "Vacation",
+   "half": false,
+   "note": ""
+  },
+  {
+   "id": "t4-m2-l9",
+   "memberId": "t4-m2",
+   "date": "2026-02-17",
+   "type": "Emergency",
+   "half": false,
+   "note": ""
+  },
+  {
+   "id": "t4-m2-l10",
+   "memberId": "t4-m2",
+   "date": "2026-02-13",
+   "type": "Training",
+   "half": false,
+   "note": ""
+  },
+  {
+   "id": "t4-m2-l11",
+   "memberId": "t4-m2",
+   "date": "2026-02-16",
+   "type": "Training",
+   "half": false,
+   "note": ""
+  },
+  {
+   "id": "t4-m2-l12",
+   "memberId": "t4-m2",
+   "date": "2026-02-17",
+   "type": "Training",
+   "half": false,
+   "note": ""
+  },
+  {
+   "id": "t4-m2-l13",
+   "memberId": "t4-m2",
+   "date": "2026-02-18",
+   "type": "Training",
+   "half": false,
+   "note": ""
+  },
+  {
+   "id": "t4-m2-l14",
+   "memberId": "t4-m2",
+   "date": "2026-02-19",
+   "type": "Training",
+   "half": false,
+   "note": ""
+  },
+  {
+   "id": "t4-m2-l15",
+   "memberId": "t4-m2",
+   "date": "2026-10-16",
+   "type": "Training",
+   "half": false,
+   "note": ""
+  },
+  {
+   "id": "t4-m2-l16",
+   "memberId": "t4-m2",
+   "date": "2026-10-19",
+   "type": "Training",
+   "half": false,
+   "note": ""
+  },
+  {
+   "id": "t4-m2-l17",
+   "memberId": "t4-m2",
+   "date": "2026-10-20",
+   "type": "Training",
+   "half": false,
+   "note": ""
+  },
+  {
+   "id": "t4-m3-l18",
+   "memberId": "t4-m3",
+   "date": "2026-06-05",
+   "type": "Vacation",
+   "half": false,
+   "note": ""
+  },
+  {
+   "id": "t4-m4-l19",
+   "memberId": "t4-m4",
+   "date": "2026-02-06",
+   "type": "Training",
+   "half": false,
+   "note": ""
+  },
+  {
+   "id": "t4-m4-l20",
+   "memberId": "t4-m4",
+   "date": "2026-02-09",
+   "type": "Training",
+   "half": false,
+   "note": ""
+  },
+  {
+   "id": "t4-m4-l21",
+   "memberId": "t4-m4",
+   "date": "2026-02-10",
+   "type": "Training",
+   "half": false,
+   "note": ""
+  },
+  {
+   "id": "t4-m5-l22",
+   "memberId": "t4-m5",
+   "date": "2026-01-26",
+   "type": "Vacation",
+   "half": false,
+   "note": ""
+  },
+  {
+   "id": "t4-m5-l23",
+   "memberId": "t4-m5",
+   "date": "2026-09-04",
+   "type": "Sick",
+   "half": false,
+   "note": ""
+  },
+  {
+   "id": "t4-m5-l24",
+   "memberId": "t4-m5",
+   "date": "2026-09-07",
+   "type": "Sick",
+   "half": false,
+   "note": ""
+  },
+  {
+   "id": "t4-m5-l25",
+   "memberId": "t4-m5",
+   "date": "2026-09-08",
+   "type": "Sick",
+   "half": false,
+   "note": ""
+  },
+  {
+   "id": "t4-m5-l26",
+   "memberId": "t4-m5",
+   "date": "2026-09-09",
+   "type": "Sick",
+   "half": false,
+   "note": ""
+  },
+  {
+   "id": "t4-m5-l27",
+   "memberId": "t4-m5",
+   "date": "2026-09-10",
+   "type": "Sick",
+   "half": false,
+   "note": ""
+  },
+  {
+   "id": "t4-m6-l28",
+   "memberId": "t4-m6",
+   "date": "2026-05-18",
+   "type": "Vacation",
+   "half": false,
+   "note": ""
+  },
+  {
+   "id": "t4-m6-l29",
+   "memberId": "t4-m6",
+   "date": "2026-12-15",
+   "type": "Vacation",
+   "half": false,
+   "note": ""
+  },
+  {
+   "id": "t4-m6-l30",
+   "memberId": "t4-m6",
+   "date": "2026-12-16",
+   "type": "Vacation",
+   "half": false,
+   "note": ""
+  },
+  {
+   "id": "t4-m6-l31",
+   "memberId": "t4-m6",
+   "date": "2026-04-17",
+   "type": "Sick",
+   "half": false,
+   "note": ""
+  },
+  {
+   "id": "t4-m6-l32",
+   "memberId": "t4-m6",
+   "date": "2026-04-20",
+   "type": "Sick",
+   "half": false,
+   "note": ""
+  },
+  {
+   "id": "t4-m6-l33",
+   "memberId": "t4-m6",
+   "date": "2026-04-21",
+   "type": "Sick",
+   "half": false,
+   "note": ""
+  }
+ ],
+ "projects": [
+  {
+   "id": "t4-p1",
+   "name": "Regression Pack Automation",
+   "status": "ongoing",
+   "start": "2026-09-07",
+   "end": "2026-11-16",
+   "owner": "t4-m1",
+   "description": "Sample project. Replace with the real scope and release name.",
+   "zephyrUrl": "https://example.atlassian.net/projects/RPA?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page"
+  },
+  {
+   "id": "t4-p2",
+   "name": "Smoke Suite Refresh",
+   "status": "completed",
+   "start": "2026-07-14",
+   "end": "2026-09-17",
+   "owner": "t4-m1",
+   "description": "Sample project. Replace with the real scope and release name.",
+   "zephyrUrl": "https://example.atlassian.net/projects/SSR?selectedItem=com.atlassian.plugins.atlassian-connect-plugin:com.kanoah.test-manager__main-project-page"
+  },
+  {
+   "id": "t4-p3",
+   "name": "CI Pipeline Gates",
+   "status": "upcoming",
+   "start": "2026-11-01",
+   "end": "2026-12-11",
+   "owner": "t4-m1",
+   "description": "Sample project. Replace with the real scope and release name.",
+   "zephyrUrl": ""
+  }
+ ],
+ "tracker": [
+  {
+   "id": "t4-p1-s1",
+   "projectId": "t4-p1",
+   "date": "2026-09-07",
+   "planned": 900,
+   "passed": 11,
+   "failed": 1,
+   "blocked": 0,
+   "deferred": 0,
+   "note": ""
+  },
+  {
+   "id": "t4-p1-s2",
+   "projectId": "t4-p1",
+   "date": "2026-09-08",
+   "planned": 900,
+   "passed": 29,
+   "failed": 3,
+   "blocked": 0,
+   "deferred": 0,
+   "note": ""
+  },
+  {
+   "id": "t4-p1-s3",
+   "projectId": "t4-p1",
+   "date": "2026-09-09",
+   "planned": 900,
+   "passed": 43,
+   "failed": 5,
+   "blocked": 0,
+   "deferred": 0,
+   "note": ""
+  },
+  {
+   "id": "t4-p1-s4",
+   "projectId": "t4-p1",
+   "date": "2026-09-10",
+   "planned": 900,
+   "passed": 57,
+   "failed": 7,
+   "blocked": 0,
+   "deferred": 0,
+   "note": ""
+  },
+  {
+   "id": "t4-p1-s5",
+   "projectId": "t4-p1",
+   "date": "2026-09-11",
+   "planned": 900,
+   "passed": 75,
+   "failed": 9,
+   "blocked": 0,
+   "deferred": 0,
+   "note": ""
+  },
+  {
+   "id": "t4-p1-s6",
+   "projectId": "t4-p1",
+   "date": "2026-09-14",
+   "planned": 900,
+   "passed": 87,
+   "failed": 10,
+   "blocked": 0,
+   "deferred": 0,
+   "note": ""
+  },
+  {
+   "id": "t4-p1-s7",
+   "projectId": "t4-p1",
+   "date": "2026-09-15",
+   "planned": 900,
+   "passed": 99,
+   "failed": 12,
+   "blocked": 0,
+   "deferred": 0,
+   "note": ""
+  },
+  {
+   "id": "t4-p1-s8",
+   "projectId": "t4-p1",
+   "date": "2026-09-16",
+   "planned": 900,
+   "passed": 113,
+   "failed": 14,
+   "blocked": 0,
+   "deferred": 0,
+   "note": ""
+  },
+  {
+   "id": "t4-p1-s9",
+   "projectId": "t4-p1",
+   "date": "2026-09-17",
+   "planned": 900,
+   "passed": 127,
+   "failed": 16,
+   "blocked": 0,
+   "deferred": 0,
+   "note": ""
+  },
+  {
+   "id": "t4-p1-s10",
+   "projectId": "t4-p1",
+   "date": "2026-09-18",
+   "planned": 900,
+   "passed": 144,
+   "failed": 18,
+   "blocked": 0,
+   "deferred": 0,
+   "note": ""
+  },
+  {
+   "id": "t4-p1-s11",
+   "projectId": "t4-p1",
+   "date": "2026-09-21",
+   "planned": 900,
+   "passed": 161,
+   "failed": 20,
+   "blocked": 0,
+   "deferred": 2,
+   "note": ""
+  },
+  {
+   "id": "t4-p1-s12",
+   "projectId": "t4-p1",
+   "date": "2026-09-22",
+   "planned": 900,
+   "passed": 173,
+   "failed": 21,
+   "blocked": 0,
+   "deferred": 2,
+   "note": ""
+  },
+  {
+   "id": "t4-p1-s13",
+   "projectId": "t4-p1",
+   "date": "2026-09-23",
+   "planned": 900,
+   "passed": 182,
+   "failed": 23,
+   "blocked": 0,
+   "deferred": 2,
+   "note": ""
+  },
+  {
+   "id": "t4-p1-s14",
+   "projectId": "t4-p1",
+   "date": "2026-09-24",
+   "planned": 900,
+   "passed": 192,
+   "failed": 24,
+   "blocked": 0,
+   "deferred": 2,
+   "note": ""
+  },
+  {
+   "id": "t4-p1-s15",
+   "projectId": "t4-p1",
+   "date": "2026-09-25",
+   "planned": 900,
+   "passed": 209,
+   "failed": 26,
+   "blocked": 0,
+   "deferred": 2,
+   "note": ""
+  },
+  {
+   "id": "t4-p1-s16",
+   "projectId": "t4-p1",
+   "date": "2026-09-28",
+   "planned": 900,
+   "passed": 224,
+   "failed": 28,
+   "blocked": 0,
+   "deferred": 2,
+   "note": ""
+  },
+  {
+   "id": "t4-p1-s17",
+   "projectId": "t4-p1",
+   "date": "2026-09-29",
+   "planned": 900,
+   "passed": 235,
+   "failed": 30,
+   "blocked": 0,
+   "deferred": 2,
+   "note": ""
+  },
+  {
+   "id": "t4-p1-s18",
+   "projectId": "t4-p1",
+   "date": "2026-09-30",
+   "planned": 900,
+   "passed": 244,
+   "failed": 31,
+   "blocked": 0,
+   "deferred": 2,
+   "note": ""
+  },
+  {
+   "id": "t4-p1-s19",
+   "projectId": "t4-p1",
+   "date": "2026-10-01",
+   "planned": 900,
+   "passed": 263,
+   "failed": 33,
+   "blocked": 0,
+   "deferred": 2,
+   "note": ""
+  },
+  {
+   "id": "t4-p1-s20",
+   "projectId": "t4-p1",
+   "date": "2026-10-02",
+   "planned": 900,
+   "passed": 276,
+   "failed": 35,
+   "blocked": 7,
+   "deferred": 2,
+   "note": ""
+  },
+  {
+   "id": "t4-p1-s21",
+   "projectId": "t4-p1",
+   "date": "2026-10-05",
+   "planned": 900,
+   "passed": 293,
+   "failed": 37,
+   "blocked": 7,
+   "deferred": 2,
+   "note": ""
+  },
+  {
+   "id": "t4-p1-s22",
+   "projectId": "t4-p1",
+   "date": "2026-10-06",
+   "planned": 900,
+   "passed": 304,
+   "failed": 38,
+   "blocked": 7,
+   "deferred": 2,
+   "note": ""
+  },
+  {
+   "id": "t4-p1-s23",
+   "projectId": "t4-p1",
+   "date": "2026-10-07",
+   "planned": 900,
+   "passed": 321,
+   "failed": 41,
+   "blocked": 7,
+   "deferred": 2,
+   "note": ""
+  },
+  {
+   "id": "t4-p1-s24",
+   "projectId": "t4-p1",
+   "date": "2026-10-08",
+   "planned": 900,
+   "passed": 332,
+   "failed": 42,
+   "blocked": 7,
+   "deferred": 2,
+   "note": ""
+  },
+  {
+   "id": "t4-p1-s25",
+   "projectId": "t4-p1",
+   "date": "2026-10-09",
+   "planned": 900,
+   "passed": 345,
+   "failed": 43,
+   "blocked": 7,
+   "deferred": 2,
+   "note": ""
+  },
+  {
+   "id": "t4-p1-s26",
+   "projectId": "t4-p1",
+   "date": "2026-10-12",
+   "planned": 900,
+   "passed": 360,
+   "failed": 45,
+   "blocked": 7,
+   "deferred": 2,
+   "note": ""
+  },
+  {
+   "id": "t4-p1-s27",
+   "projectId": "t4-p1",
+   "date": "2026-10-13",
+   "planned": 900,
+   "passed": 369,
+   "failed": 47,
+   "blocked": 7,
+   "deferred": 2,
+   "note": ""
+  },
+  {
+   "id": "t4-p1-s28",
+   "projectId": "t4-p1",
+   "date": "2026-10-14",
+   "planned": 900,
+   "passed": 378,
+   "failed": 48,
+   "blocked": 7,
+   "deferred": 2,
+   "note": ""
+  },
+  {
+   "id": "t4-p1-s29",
+   "projectId": "t4-p1",
+   "date": "2026-10-15",
+   "planned": 900,
+   "passed": 389,
+   "failed": 49,
+   "blocked": 7,
+   "deferred": 2,
+   "note": ""
+  },
+  {
+   "id": "t4-p1-s30",
+   "projectId": "t4-p1",
+   "date": "2026-10-16",
+   "planned": 900,
+   "passed": 407,
+   "failed": 52,
+   "blocked": 11,
+   "deferred": 2,
+   "note": ""
+  },
+  {
+   "id": "t4-p1-s31",
+   "projectId": "t4-p1",
+   "date": "2026-10-19",
+   "planned": 900,
+   "passed": 424,
+   "failed": 54,
+   "blocked": 11,
+   "deferred": 8,
+   "note": ""
+  },
+  {
+   "id": "t4-p1-s32",
+   "projectId": "t4-p1",
+   "date": "2026-10-20",
+   "planned": 900,
+   "passed": 438,
+   "failed": 55,
+   "blocked": 11,
+   "deferred": 8,
+   "note": ""
+  },
+  {
+   "id": "t4-p1-s33",
+   "projectId": "t4-p1",
+   "date": "2026-10-21",
+   "planned": 900,
+   "passed": 447,
+   "failed": 57,
+   "blocked": 11,
+   "deferred": 8,
+   "note": ""
+  },
+  {
+   "id": "t4-p1-s34",
+   "projectId": "t4-p1",
+   "date": "2026-10-22",
+   "planned": 900,
+   "passed": 460,
+   "failed": 58,
+   "blocked": 6,
+   "deferred": 8,
+   "note": ""
+  },
+  {
+   "id": "t4-p2-s1",
+   "projectId": "t4-p2",
+   "date": "2026-07-14",
+   "planned": 220,
+   "passed": 6,
+   "failed": 0,
+   "blocked": 0,
+   "deferred": 6,
+   "note": ""
+  },
+  {
+   "id": "t4-p2-s2",
+   "projectId": "t4-p2",
+   "date": "2026-07-15",
+   "planned": 220,
+   "passed": 11,
+   "failed": 0,
+   "blocked": 0,
+   "deferred": 6,
+   "note": ""
+  },
+  {
+   "id": "t4-p2-s3",
+   "projectId": "t4-p2",
+   "date": "2026-07-16",
+   "planned": 220,
+   "passed": 15,
+   "failed": 1,
+   "blocked": 0,
+   "deferred": 6,
+   "note": ""
+  },
+  {
+   "id": "t4-p2-s4",
+   "projectId": "t4-p2",
+   "date": "2026-07-17",
+   "planned": 220,
+   "passed": 20,
+   "failed": 1,
+   "blocked": 0,
+   "deferred": 6,
+   "note": ""
+  },
+  {
+   "id": "t4-p2-s5",
+   "projectId": "t4-p2",
+   "date": "2026-07-20",
+   "planned": 220,
+   "passed": 25,
+   "failed": 1,
+   "blocked": 0,
+   "deferred": 6,
+   "note": ""
+  },
+  {
+   "id": "t4-p2-s6",
+   "projectId": "t4-p2",
+   "date": "2026-07-21",
+   "planned": 220,
+   "passed": 29,
+   "failed": 2,
+   "blocked": 0,
+   "deferred": 6,
+   "note": ""
+  },
+  {
+   "id": "t4-p2-s7",
+   "projectId": "t4-p2",
+   "date": "2026-07-22",
+   "planned": 220,
+   "passed": 34,
+   "failed": 2,
+   "blocked": 0,
+   "deferred": 6,
+   "note": ""
+  },
+  {
+   "id": "t4-p2-s8",
+   "projectId": "t4-p2",
+   "date": "2026-07-23",
+   "planned": 220,
+   "passed": 38,
+   "failed": 2,
+   "blocked": 0,
+   "deferred": 6,
+   "note": ""
+  },
+  {
+   "id": "t4-p2-s9",
+   "projectId": "t4-p2",
+   "date": "2026-07-24",
+   "planned": 220,
+   "passed": 42,
+   "failed": 3,
+   "blocked": 0,
+   "deferred": 6,
+   "note": ""
+  },
+  {
+   "id": "t4-p2-s10",
+   "projectId": "t4-p2",
+   "date": "2026-07-27",
+   "planned": 220,
+   "passed": 46,
+   "failed": 3,
+   "blocked": 0,
+   "deferred": 6,
+   "note": ""
+  },
+  {
+   "id": "t4-p2-s11",
+   "projectId": "t4-p2",
+   "date": "2026-07-28",
+   "planned": 220,
+   "passed": 51,
+   "failed": 3,
+   "blocked": 0,
+   "deferred": 6,
+   "note": ""
+  },
+  {
+   "id": "t4-p2-s12",
+   "projectId": "t4-p2",
+   "date": "2026-07-29",
+   "planned": 220,
+   "passed": 54,
+   "failed": 4,
+   "blocked": 0,
+   "deferred": 6,
+   "note": ""
+  },
+  {
+   "id": "t4-p2-s13",
+   "projectId": "t4-p2",
+   "date": "2026-07-30",
+   "planned": 220,
+   "passed": 59,
+   "failed": 4,
+   "blocked": 0,
+   "deferred": 6,
+   "note": ""
+  },
+  {
+   "id": "t4-p2-s14",
+   "projectId": "t4-p2",
+   "date": "2026-07-31",
+   "planned": 220,
+   "passed": 63,
+   "failed": 4,
+   "blocked": 0,
+   "deferred": 6,
+   "note": ""
+  },
+  {
+   "id": "t4-p2-s15",
+   "projectId": "t4-p2",
+   "date": "2026-08-03",
+   "planned": 220,
+   "passed": 67,
+   "failed": 4,
+   "blocked": 0,
+   "deferred": 6,
+   "note": ""
+  },
+  {
+   "id": "t4-p2-s16",
+   "projectId": "t4-p2",
+   "date": "2026-08-04",
+   "planned": 220,
+   "passed": 71,
+   "failed": 5,
+   "blocked": 0,
+   "deferred": 6,
+   "note": ""
+  },
+  {
+   "id": "t4-p2-s17",
+   "projectId": "t4-p2",
+   "date": "2026-08-05",
+   "planned": 220,
+   "passed": 75,
+   "failed": 5,
+   "blocked": 0,
+   "deferred": 6,
+   "note": ""
+  },
+  {
+   "id": "t4-p2-s18",
+   "projectId": "t4-p2",
+   "date": "2026-08-06",
+   "planned": 220,
+   "passed": 79,
+   "failed": 5,
+   "blocked": 0,
+   "deferred": 6,
+   "note": ""
+  },
+  {
+   "id": "t4-p2-s19",
+   "projectId": "t4-p2",
+   "date": "2026-08-07",
+   "planned": 220,
+   "passed": 82,
+   "failed": 6,
+   "blocked": 0,
+   "deferred": 6,
+   "note": ""
+  },
+  {
+   "id": "t4-p2-s20",
+   "projectId": "t4-p2",
+   "date": "2026-08-10",
+   "planned": 220,
+   "passed": 87,
+   "failed": 6,
+   "blocked": 0,
+   "deferred": 6,
+   "note": ""
+  },
+  {
+   "id": "t4-p2-s21",
+   "projectId": "t4-p2",
+   "date": "2026-08-11",
+   "planned": 220,
+   "passed": 91,
+   "failed": 6,
+   "blocked": 0,
+   "deferred": 6,
+   "note": ""
+  },
+  {
+   "id": "t4-p2-s22",
+   "projectId": "t4-p2",
+   "date": "2026-08-12",
+   "planned": 220,
+   "passed": 94,
+   "failed": 7,
+   "blocked": 0,
+   "deferred": 6,
+   "note": ""
+  },
+  {
+   "id": "t4-p2-s23",
+   "projectId": "t4-p2",
+   "date": "2026-08-13",
+   "planned": 220,
+   "passed": 98,
+   "failed": 7,
+   "blocked": 0,
+   "deferred": 6,
+   "note": ""
+  },
+  {
+   "id": "t4-p2-s24",
+   "projectId": "t4-p2",
+   "date": "2026-08-14",
+   "planned": 220,
+   "passed": 102,
+   "failed": 7,
+   "blocked": 0,
+   "deferred": 6,
+   "note": ""
+  },
+  {
+   "id": "t4-p2-s25",
+   "projectId": "t4-p2",
+   "date": "2026-08-17",
+   "planned": 220,
+   "passed": 106,
+   "failed": 7,
+   "blocked": 0,
+   "deferred": 6,
+   "note": ""
+  },
+  {
+   "id": "t4-p2-s26",
+   "projectId": "t4-p2",
+   "date": "2026-08-18",
+   "planned": 220,
+   "passed": 109,
+   "failed": 8,
+   "blocked": 0,
+   "deferred": 6,
+   "note": ""
+  },
+  {
+   "id": "t4-p2-s27",
+   "projectId": "t4-p2",
+   "date": "2026-08-19",
+   "planned": 220,
+   "passed": 113,
+   "failed": 8,
+   "blocked": 0,
+   "deferred": 6,
+   "note": ""
+  },
+  {
+   "id": "t4-p2-s28",
+   "projectId": "t4-p2",
+   "date": "2026-08-20",
+   "planned": 220,
+   "passed": 117,
+   "failed": 8,
+   "blocked": 0,
+   "deferred": 6,
+   "note": ""
+  },
+  {
+   "id": "t4-p2-s29",
+   "projectId": "t4-p2",
+   "date": "2026-08-21",
+   "planned": 220,
+   "passed": 121,
+   "failed": 9,
+   "blocked": 0,
+   "deferred": 6,
+   "note": ""
+  },
+  {
+   "id": "t4-p2-s30",
+   "projectId": "t4-p2",
+   "date": "2026-08-24",
+   "planned": 220,
+   "passed": 125,
+   "failed": 9,
+   "blocked": 0,
+   "deferred": 6,
+   "note": ""
+  },
+  {
+   "id": "t4-p2-s31",
+   "projectId": "t4-p2",
+   "date": "2026-08-25",
+   "planned": 220,
+   "passed": 129,
+   "failed": 9,
+   "blocked": 0,
+   "deferred": 6,
+   "note": ""
+  },
+  {
+   "id": "t4-p2-s32",
+   "projectId": "t4-p2",
+   "date": "2026-08-26",
+   "planned": 220,
+   "passed": 133,
+   "failed": 9,
+   "blocked": 0,
+   "deferred": 6,
+   "note": ""
+  },
+  {
+   "id": "t4-p2-s33",
+   "projectId": "t4-p2",
+   "date": "2026-08-27",
+   "planned": 220,
+   "passed": 136,
+   "failed": 10,
+   "blocked": 0,
+   "deferred": 6,
+   "note": ""
+  },
+  {
+   "id": "t4-p2-s34",
+   "projectId": "t4-p2",
+   "date": "2026-08-28",
+   "planned": 220,
+   "passed": 140,
+   "failed": 10,
+   "blocked": 0,
+   "deferred": 6,
+   "note": ""
+  },
+  {
+   "id": "t4-p2-s35",
+   "projectId": "t4-p2",
+   "date": "2026-08-31",
+   "planned": 220,
+   "passed": 143,
+   "failed": 10,
+   "blocked": 0,
+   "deferred": 6,
+   "note": ""
+  },
+  {
+   "id": "t4-p2-s36",
+   "projectId": "t4-p2",
+   "date": "2026-09-01",
+   "planned": 220,
+   "passed": 146,
+   "failed": 11,
+   "blocked": 0,
+   "deferred": 6,
+   "note": ""
+  },
+  {
+   "id": "t4-p2-s37",
+   "projectId": "t4-p2",
+   "date": "2026-09-02",
+   "planned": 220,
+   "passed": 150,
+   "failed": 11,
+   "blocked": 0,
+   "deferred": 6,
+   "note": ""
+  },
+  {
+   "id": "t4-p2-s38",
+   "projectId": "t4-p2",
+   "date": "2026-09-03",
+   "planned": 220,
+   "passed": 154,
+   "failed": 11,
+   "blocked": 0,
+   "deferred": 6,
+   "note": ""
+  },
+  {
+   "id": "t4-p2-s39",
+   "projectId": "t4-p2",
+   "date": "2026-09-04",
+   "planned": 220,
+   "passed": 158,
+   "failed": 11,
+   "blocked": 0,
+   "deferred": 6,
+   "note": ""
+  },
+  {
+   "id": "t4-p2-s40",
+   "projectId": "t4-p2",
+   "date": "2026-09-07",
+   "planned": 220,
+   "passed": 161,
+   "failed": 12,
+   "blocked": 0,
+   "deferred": 6,
+   "note": ""
+  },
+  {
+   "id": "t4-p2-s41",
+   "projectId": "t4-p2",
+   "date": "2026-09-08",
+   "planned": 220,
+   "passed": 165,
+   "failed": 12,
+   "blocked": 0,
+   "deferred": 6,
+   "note": ""
+  },
+  {
+   "id": "t4-p2-s42",
+   "projectId": "t4-p2",
+   "date": "2026-09-09",
+   "planned": 220,
+   "passed": 169,
+   "failed": 12,
+   "blocked": 0,
+   "deferred": 6,
+   "note": ""
+  },
+  {
+   "id": "t4-p2-s43",
+   "projectId": "t4-p2",
+   "date": "2026-09-10",
+   "planned": 220,
+   "passed": 172,
+   "failed": 13,
+   "blocked": 0,
+   "deferred": 6,
+   "note": ""
+  },
+  {
+   "id": "t4-p2-s44",
+   "projectId": "t4-p2",
+   "date": "2026-09-11",
+   "planned": 220,
+   "passed": 176,
+   "failed": 13,
+   "blocked": 0,
+   "deferred": 6,
+   "note": ""
+  },
+  {
+   "id": "t4-p2-s45",
+   "projectId": "t4-p2",
+   "date": "2026-09-14",
+   "planned": 220,
+   "passed": 180,
+   "failed": 13,
+   "blocked": 0,
+   "deferred": 6,
+   "note": ""
+  },
+  {
+   "id": "t4-p2-s46",
+   "projectId": "t4-p2",
+   "date": "2026-09-15",
+   "planned": 220,
+   "passed": 183,
+   "failed": 13,
+   "blocked": 0,
+   "deferred": 6,
+   "note": ""
+  },
+  {
+   "id": "t4-p2-s47",
+   "projectId": "t4-p2",
+   "date": "2026-09-16",
+   "planned": 220,
+   "passed": 186,
+   "failed": 14,
+   "blocked": 0,
+   "deferred": 6,
+   "note": ""
+  },
+  {
+   "id": "t4-p2-s48",
+   "projectId": "t4-p2",
+   "date": "2026-09-17",
+   "planned": 220,
+   "passed": 190,
+   "failed": 14,
+   "blocked": 0,
+   "deferred": 6,
+   "note": ""
+  }
+ ],
+ "assignments": [
+  {
+   "id": "t4-p1-t4-m1",
+   "projectId": "t4-p1",
+   "memberId": "t4-m1",
+   "role": "Test lead",
+   "allocation": 50,
+   "assigned": 219,
+   "passed": 113,
+   "failed": 12,
+   "blocked": 1
+  },
+  {
+   "id": "t4-p1-t4-m4",
+   "projectId": "t4-p1",
+   "memberId": "t4-m4",
+   "role": "Test execution",
+   "allocation": 50,
+   "assigned": 219,
+   "passed": 113,
+   "failed": 12,
+   "blocked": 1
+  },
+  {
+   "id": "t4-p1-t4-m2",
+   "projectId": "t4-p1",
+   "memberId": "t4-m2",
+   "role": "Test execution",
+   "allocation": 60,
+   "assigned": 212,
+   "passed": 109,
+   "failed": 12,
+   "blocked": 1
+  },
+  {
+   "id": "t4-p1-t4-m3",
+   "projectId": "t4-p1",
+   "memberId": "t4-m3",
+   "role": "Test execution",
+   "allocation": 20,
+   "assigned": 248,
+   "passed": 128,
+   "failed": 14,
+   "blocked": 1
+  },
+  {
+   "id": "t4-p3-t4-m4",
+   "projectId": "t4-p3",
+   "memberId": "t4-m4",
+   "role": "Test design",
+   "allocation": 30,
+   "assigned": 0,
+   "passed": 0,
+   "failed": 0,
+   "blocked": 0
+  },
+  {
+   "id": "t4-p3-t4-m2",
+   "projectId": "t4-p3",
+   "memberId": "t4-m2",
+   "role": "Test design",
+   "allocation": 30,
+   "assigned": 0,
+   "passed": 0,
+   "failed": 0,
+   "blocked": 0
+  }
+ ],
+ "roster": [
+  {
+   "date": "2026-10-07",
+   "memberIds": [
+    "t4-m1",
+    "t4-m2"
+   ],
+   "note": ""
+  },
+  {
+   "date": "2026-10-14",
+   "memberIds": [
+    "t4-m4",
+    "t4-m5"
+   ],
+   "note": ""
+  },
+  {
+   "date": "2026-10-21",
+   "memberIds": [
+    "t4-m1",
+    "t4-m6"
+   ],
+   "note": ""
+  },
+  {
+   "date": "2026-10-28",
+   "memberIds": [
+    "t4-m3",
+    "t4-m4"
+   ],
+   "note": ""
+  },
+  {
+   "date": "2026-11-04",
+   "memberIds": [
+    "t4-m1",
+    "t4-m5"
+   ],
+   "note": ""
+  },
+  {
+   "date": "2026-11-11",
+   "memberIds": [
+    "t4-m2",
+    "t4-m3"
+   ],
+   "note": ""
+  },
+  {
+   "date": "2026-11-18",
+   "memberIds": [
+    "t4-m1",
+    "t4-m4"
+   ],
+   "note": ""
+  },
+  {
+   "date": "2026-11-25",
+   "memberIds": [
+    "t4-m6",
+    "t4-m2"
+   ],
+   "note": ""
+  },
+  {
+   "date": "2026-12-02",
+   "memberIds": [
+    "t4-m1",
+    "t4-m3"
+   ],
+   "note": ""
+  },
+  {
+   "date": "2026-12-09",
+   "memberIds": [
+    "t4-m5",
+    "t4-m6"
+   ],
+   "note": ""
+  },
+  {
+   "date": "2026-12-16",
+   "memberIds": [
+    "t4-m1",
+    "t4-m2"
+   ],
+   "note": ""
+  },
+  {
+   "date": "2026-12-23",
+   "memberIds": [
+    "t4-m4",
+    "t4-m5"
+   ],
+   "note": ""
+  },
+  {
+   "date": "2026-12-30",
+   "memberIds": [
+    "t4-m1",
+    "t4-m6"
+   ],
+   "note": ""
+  }
+ ]
+}

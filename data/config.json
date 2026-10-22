@@ -1,0 +1,150 @@
+{
+ "schema": 1,
+ "sample": true,
+ "siteName": "Testing Delivery Team",
+ "tagline": "Quality you can release with confidence.",
+ "logo": "",
+ "theme": {
+  "from": "#d4ecfd",
+  "to": "#6fb8f1",
+  "angle": 135,
+  "accent": "#1d6fc4"
+ },
+ "fiscalStartMonth": 1,
+ "onsiteWeekday": 3,
+ "onsiteCapacity": 14,
+ "tracker": {
+  "riskGapPct": 5,
+  "behindGapPct": 15,
+  "staleDays": 3,
+  "blockedPct": 10
+ },
+ "leaveTypes": [
+  {
+   "name": "Vacation",
+   "deduct": true
+  },
+  {
+   "name": "Sick",
+   "deduct": true
+  },
+  {
+   "name": "Emergency",
+   "deduct": true
+  },
+  {
+   "name": "Training",
+   "deduct": false
+  }
+ ],
+ "holidays": [],
+ "teams": [
+  {
+   "id": "t1",
+   "name": "Web Testing",
+   "file": "data/team-1.json",
+   "color": "#2a78d6",
+   "area": "Web & Portal"
+  },
+  {
+   "id": "t2",
+   "name": "Mobile Testing",
+   "file": "data/team-2.json",
+   "color": "#eb6834",
+   "area": "Mobile Apps"
+  },
+  {
+   "id": "t3",
+   "name": "API & Integration",
+   "file": "data/team-3.json",
+   "color": "#1baf7a",
+   "area": "Services"
+  },
+  {
+   "id": "t4",
+   "name": "Test Automation",
+   "file": "data/team-4.json",
+   "color": "#6250d6",
+   "area": "Automation"
+  },
+  {
+   "id": "t5",
+   "name": "Performance & Security",
+   "file": "data/team-5.json",
+   "color": "#e87ba4",
+   "area": "Non-functional"
+  }
+ ],
+ "newsletter": {
+  "heading": "October Newsletter",
+  "greeting": "Hello team,",
+  "body": "Thank you for a strong quarter. Two releases went out on schedule and our regression pass rate is the best it has been this year. Next up: the hybrid onsite Wednesdays begin, so please check your team roster.",
+  "signoff": "Keep up the great work.",
+  "author": "Delivery Lead",
+  "date": "2026-10-19"
+ },
+ "slides": [
+  {
+   "src": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%201280%20560%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23d4ecfd%22/%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%237cc0f3%22/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width%3D%221280%22%20height%3D%22560%22%20fill%3D%22url%28%23g%29%22/%3E%3Ccircle%20cx%3D%221010%22%20cy%3D%22170%22%20r%3D%22190%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%22.35%22/%3E%3Ccircle%20cx%3D%22880%22%20cy%3D%22300%22%20r%3D%22110%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%22.35%22/%3E%3Crect%20x%3D%2264%22%20y%3D%2290%22%20width%3D%22260%22%20height%3D%2214%22%20rx%3D%227%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%22.7%22/%3E%3Crect%20x%3D%2264%22%20y%3D%22124%22%20width%3D%22180%22%20height%3D%2214%22%20rx%3D%227%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%22.5%22/%3E%3C/svg%3E",
+   "caption": "Release day, together"
+  },
+  {
+   "src": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%201280%20560%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23e1f1fd%22/%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%238fcaf5%22/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width%3D%221280%22%20height%3D%22560%22%20fill%3D%22url%28%23g%29%22/%3E%3Crect%20x%3D%22760%22%20y%3D%2270%22%20width%3D%22380%22%20height%3D%22250%22%20rx%3D%2222%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%22.4%22/%3E%3Crect%20x%3D%22800%22%20y%3D%22110%22%20width%3D%22150%22%20height%3D%2220%22%20rx%3D%2210%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%22.8%22/%3E%3Crect%20x%3D%22800%22%20y%3D%22150%22%20width%3D%22300%22%20height%3D%2214%22%20rx%3D%227%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%22.6%22/%3E%3Crect%20x%3D%22800%22%20y%3D%22180%22%20width%3D%22260%22%20height%3D%2214%22%20rx%3D%227%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%22.6%22/%3E%3Crect%20x%3D%22800%22%20y%3D%22210%22%20width%3D%22200%22%20height%3D%2214%22%20rx%3D%227%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%22.6%22/%3E%3C/svg%3E",
+   "caption": "Quarterly planning session"
+  },
+  {
+   "src": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%201280%20560%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23cbe6fb%22/%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%236fb8f1%22/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width%3D%221280%22%20height%3D%22560%22%20fill%3D%22url%28%23g%29%22/%3E%3Ccircle%20cx%3D%22940%22%20cy%3D%22190%22%20r%3D%2248%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%22.55%22/%3E%3Ccircle%20cx%3D%221040%22%20cy%3D%22230%22%20r%3D%2248%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%22.45%22/%3E%3Ccircle%20cx%3D%22840%22%20cy%3D%22230%22%20r%3D%2248%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%22.45%22/%3E%3Ccircle%20cx%3D%22990%22%20cy%3D%22310%22%20r%3D%2248%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%22.35%22/%3E%3Ccircle%20cx%3D%22890%22%20cy%3D%22310%22%20r%3D%2248%22%20fill%3D%22%23ffffff%22%20fill-opacity%3D%22.35%22/%3E%3C/svg%3E",
+   "caption": "Hybrid onsite Wednesday"
+  }
+ ],
+ "featured": [
+  {
+   "teamId": "t1",
+   "memberId": "t1-m1",
+   "title": "Tester of the Month",
+   "blurb": "Led the Checkout Redesign test strategy and mentored two new joiners this quarter."
+  },
+  {
+   "teamId": "t3",
+   "memberId": "t3-m3",
+   "title": "Best Catch",
+   "blurb": "Caught a critical data-mapping defect before the Claims migration cut-over."
+  },
+  {
+   "teamId": "t4",
+   "memberId": "t4-m2",
+   "title": "Automation Champion",
+   "blurb": "Built the new smoke suite that now runs on every merge."
+  }
+ ],
+ "news": [
+  {
+   "date": "2026-10-20",
+   "title": "Hybrid onsite Wednesdays start in November",
+   "body": "Each team leader publishes the monthly roster. Check the Onsite Roster page for your date.",
+   "tag": "Hybrid"
+  },
+  {
+   "date": "2026-10-14",
+   "title": "Zephyr suite naming convention",
+   "body": "Please name suites as PROJECT-RELEASE so the tracker links stay easy to find.",
+   "tag": "Process"
+  },
+  {
+   "date": "2026-10-02",
+   "title": "Welcome to the new joiners",
+   "body": "Three new testers joined across Web, Mobile and API testing this month.",
+   "tag": "People"
+  }
+ ],
+ "links": [
+  {
+   "label": "Zephyr",
+   "url": "https://example.atlassian.net/"
+  },
+  {
+   "label": "Test strategy guide",
+   "url": "https://example.com/test-strategy"
+  }
+ ]
+}
